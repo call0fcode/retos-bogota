@@ -12,5 +12,4 @@
  *   parámetros de entrada y salida.
  */
 
-export function sumNumbers() {
-};
+export function sumNumbers() {};
