@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "module": "node16",
+    "module": "ESNext",
     "strict": true,
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "types": ["vitest/globals"],
+    "moduleResolution": "node",
+    "baseUrl": "./src"
   },
   "include": ["src", "test"],
   "exclude": ["node_modules"]
